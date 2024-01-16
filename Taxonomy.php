@@ -2,18 +2,18 @@
 <?php 
 
 
-class Category
+class Taxonomy
 {
-    public $category;
+    public $categorie;
 
     public function __construct($categoria)
     {
-        $this->category = $categoria;
+        $this->categorie = $categoria;
     }
     
     public function getCategory()
     {
-        return $this->category;
+        return $this->categorie;
         
     }
 }

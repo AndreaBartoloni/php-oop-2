@@ -3,15 +3,21 @@
     $products = [
         new Products(
             "Croccantini",
-            "Cibo"
+            new Taxonomy("Cibo")
         ),
         new Products(
             "Peluche",
-            "Giochi"
+            new Taxonomy("Giochi")
         ),
         new Products(
             "Cucce",
-            "Generico"
+            new Taxonomy("Generico")
+           
+        ),
+        new Products(
+            "Guinzaglio",
+            new Taxonomy("Attrezzatura")
+           
         ),
     ]
 

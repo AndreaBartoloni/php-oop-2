@@ -2,7 +2,6 @@
 
 require __DIR__ . "/product.php";
 require __DIR__ . "/data.php";
-require __DIR__ . "/category.php";
 
 ?>
 
@@ -16,13 +15,13 @@ require __DIR__ . "/category.php";
     <title>Document</title>
 </head>
 <body>
-    <div class="row justify-content-center mt-5">
+    <div class="row mt-5 flex-wrap w-75 mx-auto">
         <?php foreach($products as $product) : ?>
-            <div class="col-3">
-                <div class="card">
-                    <div class="card-body">
+            <div class="col-4">
+                <div class="card mb-5">
+                    <div class="card-body ">
                         <h5 class="card-title"> <?php echo $product->name ?> </h5>
-                        <p class="card-title"> Categoria: <?php echo $product->category ?> </p>
+                        <p class="card-title"> Categoria: <?php echo $product->category->categorie ?> </p>
                     </div> 
                 </div>             
             </div>
