@@ -1,7 +1,7 @@
 <?php 
-
+    require __DIR__ . "/croccantini.php";
     $products = [
-        new Products(
+        new Croccantini(
             "Croccantini",
             new Taxonomy("Cibo")
         ),
