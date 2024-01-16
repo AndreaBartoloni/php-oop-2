@@ -5,15 +5,17 @@
     class Products
     {
         public $name;
+        public $category;
 
-        public function __construct($nome)
+        public function __construct($nome, $categoria)
         {
             $this->name = $nome;
+            $this->category = $categoria;
         }
         
         public function getProducts()
         {
-            $results = $this->name;
+            $results = $this->name . "," . $this->category;
             return $results;
         }
     }
