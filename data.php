@@ -1,20 +1,26 @@
 <?php 
-    require __DIR__ . "/croccantini.php";
+    require __DIR__ . "/child/kibble.php";
+    require __DIR__ . "/child/peluche.php";
+    require __DIR__ . "/child/generic.php";
+    require __DIR__ . "/child/equipment.php";
+
+
+
     $products = [
-        new Croccantini(
+        new Kibble(
             "Croccantini",
             new Taxonomy("Cibo")
         ),
-        new Products(
+        new Peluche(
             "Peluche",
             new Taxonomy("Giochi")
         ),
-        new Products(
+        new Generic(
             "Cucce",
             new Taxonomy("Generico")
            
         ),
-        new Products(
+        new Equipment(
             "Guinzaglio",
             new Taxonomy("Attrezzatura")
            
