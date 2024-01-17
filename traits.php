@@ -4,10 +4,10 @@ trait Color {
 
     public $color;
 
-    public function __construct(){
-
-
+    public function setColor($colore) {
+        $this->color = $colore;
     }
+
 
 }
 
