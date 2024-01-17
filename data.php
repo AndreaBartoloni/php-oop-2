@@ -9,7 +9,9 @@
     $products = [
         new Kibble(
             "Croccantini",
-            new Taxonomy("Cibo")
+            new Taxonomy("Cibo"), 
+            "1000 calorie",
+            "200 G"
         ),
         new Peluche(
             "Peluche",
