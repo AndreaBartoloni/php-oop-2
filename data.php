@@ -15,7 +15,10 @@
         ),
         new Peluche(
             "Peluche",
-            new Taxonomy("Giochi")
+            new Taxonomy("Giochi"),
+            "Spugna",
+            "100 Grammi"
+            //"rosso"
         ),
         new Generic(
             "Cucce",
@@ -24,7 +27,10 @@
         ),
         new Equipment(
             "Guinzaglio",
-            new Taxonomy("Attrezzatura")
+            new Taxonomy("Attrezzatura"),
+            "Stoffa",
+            "2 Metri",
+            //"rosso"
            
         ),
     ]
